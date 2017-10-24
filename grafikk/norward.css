@@ -1,0 +1,204 @@
+@media screen {
+
+/*Struktur*/
+body {
+	background-color: rgb(241,241,241);
+	font-family: tahoma, "geneva", sans-serif ;
+}
+#wrapper {
+	background-color: rgb(255,255,255);
+	max-width: 1024px;
+	height: auto; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 1%;
+	box-shadow: 5px 5px 5px; 
+	border: 2px solid #000000; 
+	border-radius: 5px;
+}
+main {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 5px;
+	clear: both;
+}
+
+.content {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+
+/*Header & Footer*/
+header {
+	background-image:url(../grafikk/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;
+	max-width: 100%;
+	padding-bottom: 20px;
+}
+header h1 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+footer {
+	font-size: 1em;
+	color: #000000;
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;}
+
+/*Meny*/
+nav {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	height: 20px;
+	width: 168px;
+	padding: 10px;
+	background-color: rgb(183,16,41);
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	color: rgb(255,255,255);
+	float: left;
+}
+nav a:hover {
+	color: rgb(255,255,255); 
+	background-color: rgb(42,71,144); 
+}
+
+#top {
+	margin-top: 15px;
+	height: 50%;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Skrift*/
+
+.slagord {
+	font-weight:bold; 
+	font-size: 150%; 
+	color: rgb(183,16,41);
+}
+
+.utarb {
+	font-style: italic;
+	color: red;
+	font-size: 120%;
+}
+
+/*Bilder og bildetekster*/
+figure {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+.fsi {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.wip {
+	margin-left: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+.feature {
+	width: 30%;
+}
+
+figcaption {
+	text-align: center;
+	height: 30px;
+	padding-top: 3px;
+	font-size: 1.5em;
+	background-color: rgb(193,219,16);
+	border-radius: 10px; 	
+}
+figcaption a {
+	text-decoration: none;
+	color: black;
+}
+.aktiviteter {
+	font-size: 1em;
+}
+
+.orginal{
+	border-style: none; 
+}
+
+.kategorier {
+	display: inline-block;
+	margin-top: -15px;
+	margin-bottom: -15px;
+	margin-left: 10%;
+}
+.kategorier img {
+	width: 100%;
+}
+.kategorier ul {
+	list-style-type: none;
+}
+.kategorier li {
+	display: inline-block;
+}
+
+.utstyrbilde img {
+	max-width: 100%;
+	height: auto;
+	float: right;
+	margin-left: 5px;
+}
+.aktiviteter {
+	text-align: center;
+	height: 20px;
+	padding-top: 3px;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: rgb(226,171,28);
+
+}
+.artikkel {
+	border: 3px solid #65B2F7;
+	background-color: white;
+	max-width: 80%;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+.oppdatering {
+	border: 3px solid #000000;
+	background-color: #006699;
+	color: white;
+	font-family: courier;
+	max-width: 90%;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+}
+
